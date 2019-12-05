@@ -25,7 +25,7 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<logging>.freeze, ["~> 2.0"])
-      s.add_runtime_dependency(%q<faraday>.freeze, ["~> 0.10.0"])
+      s.add_runtime_dependency(%q<faraday>.freeze, [">= 0.10.0"])
       s.add_runtime_dependency(%q<test-unit>.freeze, ["~> 3.1.5"])
       s.add_runtime_dependency(%q<certifi>.freeze, [">= 2016.09.26", "~> 2016.9"])
       s.add_runtime_dependency(%q<faraday-http-cache>.freeze, [">= 1.2.2", "~> 1.2"])
@@ -38,7 +38,7 @@ Gem::Specification.new do |s|
     end
   else
     s.add_dependency(%q<logging>.freeze, ["~> 2.0"])
-    s.add_dependency(%q<faraday>.freeze, ["~> 0.10.0"])
+    s.add_dependency(%q<faraday>.freeze, [">= 0.10.0"])
     s.add_dependency(%q<test-unit>.freeze, ["~> 3.1.5"])
     s.add_dependency(%q<certifi>.freeze, [">= 2016.09.26", "~> 2016.9"])
     s.add_dependency(%q<faraday-http-cache>.freeze, [">= 1.2.2", "~> 1.2"])
