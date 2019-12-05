@@ -31,7 +31,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<faraday-http-cache>.freeze, [">= 1.2.2", "~> 1.2"])
     else
       s.add_dependency(%q<logging>.freeze, ["~> 2.0"])
-      s.add_dependency(%q<faraday>.freeze, ["~> 0.10.0"])
+      s.add_dependency(%q<faraday>.freeze, [">= 0.10.0"])
       s.add_dependency(%q<test-unit>.freeze, ["~> 3.1.5"])
       s.add_dependency(%q<certifi>.freeze, [">= 2016.09.26", "~> 2016.9"])
       s.add_dependency(%q<faraday-http-cache>.freeze, [">= 1.2.2", "~> 1.2"])
