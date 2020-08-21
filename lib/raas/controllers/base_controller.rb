@@ -16,7 +16,7 @@ module Raas
         'user-agent' => 'V2NGSDK'
       }
       @logger = Logging.logger[self]
-      @logger.info("Instantiated controller class.")
+      @logger.debug("Instantiated controller class.")
     end
 
     def validate_parameters(args)
